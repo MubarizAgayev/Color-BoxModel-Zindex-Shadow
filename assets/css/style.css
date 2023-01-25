@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    width: 1519px;
+    height: 80px;
+    display: flex;
+}
+.tittle{
+    background-color: greenyellow;
+    margin-left: 130px;
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 30px;
+    height: 70px;
+    margin-top: 10px;
+    background-color: rgb(40, 142, 142);
+}
+.tittle h1{
+    color: white;
+}
+.links{
+    background-color: white;
+    margin-left: 600px;
+    width: 400px;
+    padding-top: 17px;
+    display: flex;
+    justify-content: space-around;
+}
+.top .links .item{
+    font-size: 25px;
+    text-decoration: none;
+}
+.top .links .item1{
+    background-color: white;
+    width: 100px;
+    height: 55px;
+    padding-left: 10px;
+    padding-top: 8px;
+    border-right: 1px solid lightgray;
+}
+.top .links .item2{
+    background-color: white;
+    height: 55px;
+    padding-left: 10px;
+    padding-top: 8px;
+    width: 110px;  
+    border-right: 1px solid lightgray;
+}
+.top .links .item3{
+    background-color: white;
+    height: 55px;
+    padding-left: 10px;
+    padding-top: 8px;
+    width: 110px;
+    border: 1px solid white;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    width: 1519px;
+    height: 930px;
+}
+.bottom .common{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    width: 1306px;
+    margin-left: 47px;
+    padding-top: 50px;
+}
+.bottom .common .about{
+    background-color: white;
+    width: 867px;
+    height: 879px;
+    padding: 30px;
+}
+.bottom .common .connect{
+    background-color: white;
+    width: 391px;
+    height: 271px;
+    margin-left: 49px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.bottom .common .about h1{
+    color: rgb(40, 142, 142);
+}
+.bottom .common .about hr{
+    color: lightgray
+}
+.bottom .common .about .text{
+    background-color: white;
+    width: 812px;
+    height: 669px;
+    margin-top: 35px;
+}
+.bottom .common .about .text .image{
+    background-image: url("../images/anonym\ person.svg");
+    background-repeat: no-repeat;
+    background-size: 273px;
+    width: 280px;
+    height: 260px;
+    float: left;
+}
+.bottom .common .about .text h1{
+    color: black;
+    margin-top: -256px;
+    margin-left: 300px;
+}
+.bottom .common .about .text p{
+    margin-left: 300px;
+    text-align: justify;
+}
+.bottom .common .about .text .text2{
+    background-color: white;
+    margin-top: 300px;
+}
+.bottom .common .connect h1{
+    color: rgb(40, 142, 142);
+    text-align: center;
+}
+.bottom .common .connect hr{
+    color: lightgray;
+    width: 350px;
+}
+
+.bottom .common .connect .links2{
+    height: 400px;
+    width: 500px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.bottom .common .connect .links2 .github{
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+.bottom .common .connect .links2 .linkedin{
+    width: 60px;
+    height: 60px;
+    margin-left: 45px;
+}
+.bottom .common .connect .links2 .stackoverflow{
+    width: 60px;
+    height: 60px;
+    margin-left: 45px;
+}
+.bottom .common .connect .links2 .item{
+    font-size: 30px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.bottom .common .connect .links2 .item.item:hover{
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: magenta;
+    width: 400px;
+    height: 400px;
+}
+.under{
+    background-color: gray;
+    width: 1519px;
+    height: 70px;
+    border-top: 2px solid rgb(40, 142, 142);
+}
